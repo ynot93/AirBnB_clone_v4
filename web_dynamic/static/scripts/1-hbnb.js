@@ -13,7 +13,7 @@ $(document).ready(function() {
             delete amenities[amenityName]; // Remove from selected amenities
         }
 
-        // Update the displayed list of selected amenities
+        // Update displayed list of selected amenities
         $(".amenities h4").text(Object.keys(amenities).sort().join(", "));
     });
 });
